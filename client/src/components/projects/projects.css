@@ -1,0 +1,48 @@
+.Projects{
+    background-image: linear-gradient(180deg, rgb(1, 11, 32), rgb(1, 11, 32), black, black);
+    width: 100%;
+    height: auto;
+    animation-name: projectsAnimation;
+    animation-duration: .5s;
+}
+
+@keyframes projectsAnimation{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.Project-holder{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 10px;
+    background-color: rgb(1, 7, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.Project-holder:hover{
+    background-color: rgb(0, 3, 10);
+}
+
+.Project-list{
+    text-decoration: none;
+    color: white;
+    transition: .2s;
+}
+
+.Project-list:hover{
+    text-decoration: none;
+    color: rgb(14, 21, 87);
+}
+
+.Projects-keeper{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+}
+
+
+

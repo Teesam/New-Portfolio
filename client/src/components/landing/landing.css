@@ -1,0 +1,53 @@
+.Landing{
+    background-image: linear-gradient(180deg, rgb(1, 11, 32), rgb(1, 11, 32), black);
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    animation-name: landingAnimation;
+    animation-duration: .5s;
+}
+
+@keyframes landingAnimation{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+p{
+    color: white;
+}
+
+#profile{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 5px;
+    box-shadow: 1px 5px 7px rgb(230, 213, 213);
+}
+
+
+#house-div{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    height: 90vh;
+    margin: 0 auto;
+    color: rgb(150, 137, 137);
+    font-weight: 500;
+}
+
+#write-up{
+    width: 30rem;
+    font-family: 'Roboto';
+    color: rgb(43, 51, 94);
+    font-size: 1.2rem;
+}
+
+strong{
+    color: rgb(128, 113, 113);
+}
+
+h2{
+    margin-bottom: 1rem;
+}
